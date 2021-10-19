@@ -25,8 +25,8 @@ fun main() {
 
     println("---------------------")
     //Create a list of 10 number then return the maximum number
-    var max = listOfInt[0]
     var listOfNumber = mutableListOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    var max = listOfNumber[0]
     listOfNumber.forEach { number -> if (max <= number) max = number }
     println(max)
 
